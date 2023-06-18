@@ -1,0 +1,1 @@
+mpiexec -np 10 python PSO_FS.py ../../../data/processedData3/chowdary_trainData.csv ../../../data/processedData3/chowdary_testData.csv ../../../data/processedData3/chowdary-2006-norm-pearson06.txt ../../../data/processedData3/chowdary-norm-com0.85.txt 0.85 0.3 0.3 0.4 100 Chowdary 1 200 0

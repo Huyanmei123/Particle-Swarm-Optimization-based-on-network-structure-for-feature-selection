@@ -1,0 +1,4 @@
+python utils.py
+mpiexec -np 10 python MOPSO_FS2.py ./data/shipp_trainData.csv ./data/shipp_testData.csv ./data/shipp-2002-v1-norm-pearson06.txt ./data/shipp-norm-com0.70.txt 0.70 0.3 0.3 0.4 100 Shipp 3 200 0.2 
+mpiexec -np 10 python MOPSO_FS2.py ./data/shipp_trainData.csv ./data/shipp_testData.csv ./data/shipp-2002-v1-norm-pearson06.txt ./data/shipp-norm-com0.80.txt 0.80 0.3 0.3 0.4 100 Shipp 3 200 0.2 
+mpiexec -np 10 python MOPSO_FS2.py ./data/shipp_trainData.csv ./data/shipp_testData.csv ./data/shipp-2002-v1-norm-pearson06.txt ./data/shipp-norm-com0.90.txt 0.90 0.3 0.3 0.4 100 Shipp 3 200 0.2 
